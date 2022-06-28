@@ -2,10 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { StyleSheet, requireNativeComponent, View, ViewPropTypes } from 'react-native';
 
-import ImageResizeMode from 'react-native/Libraries/Image/ImageResizeMode';
-import ImageStylePropTypes from 'react-native/Libraries/Image/ImageStylePropTypes';
 import resolveAssetSource from 'react-native/Libraries/Image/resolveAssetSource';
-import StyleSheetPropType from 'react-native/Libraries/StyleSheet/StyleSheetPropType';
 
 const styles = StyleSheet.create({
   base: {
@@ -62,7 +59,6 @@ export default class VideoPreview extends Component {
 
 VideoPreview.propTypes = {
   ...ViewPropTypes,
-  style: StyleSheetPropType(ImageStylePropTypes),
   source: PropTypes.oneOfType([
     PropTypes.shape({
       uri: PropTypes.string,

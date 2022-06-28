@@ -1,6 +1,6 @@
 {
-  "name": "react-native-video-preview",
-  "version": "1.0.0",
+  "name": "@humanz/react-native-video-preview",
+  "version": "1.0.1",
   "description": "A <VideoPreview /> element for react-native",
   "main": "./VideoPreview.js",
   "module": "./VideoPreview.js",
